@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+legend{
+    background-color: slategray;
+    color: white;
+    padding: 5px;
+}
+fieldset{
+    background-color: lightsteelblue;
+}
+div#first , div#second{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#first{
+    margin-top: 10%;
+
+}
+input#result{
+    width: 100%;
+}
+input#add{
+    margin-left: 20px;
+}
+
+input{
+    font-size: 1.5em;
+}

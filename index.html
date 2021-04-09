@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator_CSS.css">
+   
+</head>
+<body>
+    <div id="first">
+        <form id="output" action="" method='GET'>
+            <fieldset>
+                <legend>My Calculator</legend>
+                <textarea name="output" id="result" rows="4" cols="100" ></textarea>
+            </fieldset>
+       
+    </div>
+    <div id="second">
+        
+            <fieldset>
+                <legend>Input</legend>
+                <div>
+               <label for="">Operands:</label> 
+                <input type="text" id="number1"> 
+                <input type="text" id="number2">
+            </div>
+            <div id="operator">
+                <label for="">Operator:</label> 
+                <input type="button" onclick="add()" value="+" >
+                 <input type="button" onclick="multiplication()" value="&times;">
+                 <input type="button" onclick="divide()" value="/">
+                 <button type="reset" id="clear">clear</button>
+             </div>
+            </fieldset>
+        </form>
+    </div>
+    <script src="Calculator_JS.js"></script>
+</body>
+</html>
